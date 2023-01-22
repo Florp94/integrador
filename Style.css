@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFF1ED;
+}
+
+/* HEADER */
+.header {
+    height: 80px;
+    width: 100%;
+    padding: 0px 50px;
+    background: #a81818;
+    box-shadow: #4d0a0a 0px 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.header img {
+    height: 100%;
+}
+
+.nav_item {
+    text-decoration: none;
+    color: #EFF1ED;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: ;
+}
